@@ -1,4 +1,4 @@
-#!/home/edison-jao/Documentos/DJRe/venv/bin/python3
+#!/Users/edisonjao/Downloads/Redjan/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

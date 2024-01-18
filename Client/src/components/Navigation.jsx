@@ -2,13 +2,12 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div>
+    <div style={{ paddingBottom: "1rem" }}>
       <Link to={"/"}>
         <h1>Task App</h1>
       </Link>
-      <Link to={"/create-task"}>
-        <button>Create Task</button>
-      </Link>
+
+      <Link to={"/create-task"}>Create Task</Link>
     </div>
   );
 }

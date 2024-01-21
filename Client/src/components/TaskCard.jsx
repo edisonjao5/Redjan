@@ -6,12 +6,13 @@ const TaskCard = ({ task }) => {
 
   return (
     <div
-      style={{ backgroundColor: "darkred", color: "white" }}
+      className="bg-white shadow-lg rounded-lg px-4 py-6 text-center hover:bg-gray-100 cursor-pointer"
       onClick={() => navigate(`/task/${task.id}`)}
     >
-      <h2>{task.title}</h2>
-      <p>{task.description}</p>
-      <hr />
+      <h2 className="text-cyan-500 font-bold underline decoration-pink-500 uppercase">
+        {task.title}
+      </h2>
+      <p className="font-medium text-amber-950 italic">{task.description}</p>
     </div>
   );
 };
